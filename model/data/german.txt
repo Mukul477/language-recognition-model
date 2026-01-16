@@ -1,0 +1,10 @@
+Dies ist ein einfacher Satz
+Ich lerne maschinelles Lernen
+Wie geht es dir heute
+Dieses Projekt ist in Python geschrieben
+Spracherkennung ist interessant
+Wir bauen ein Modell von Grund auf
+Das Wetter ist heute schön
+Open Source Beiträge sind wichtig
+Ich lerne neue Dinge
+Dies ist ein Beispielsatz 

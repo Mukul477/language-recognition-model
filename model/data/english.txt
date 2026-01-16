@@ -1,0 +1,10 @@
+This is a simple sentence
+I like machine learning
+How are you today
+This project is written in python
+Language detection is interesting
+We are building a model from scratch
+The weather is nice today
+Open source contributions matter
+I am learning new things
+This is an example sentence

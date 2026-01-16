@@ -1,0 +1,10 @@
+Ceci est une phrase simple
+J aime apprendre le machine learning
+Comment allez vous aujourd hui
+Ce projet est écrit en python
+La reconnaissance de langue est intéressante
+Nous construisons un modèle depuis zéro
+Il fait beau aujourd hui
+Les contributions open source sont importantes
+J apprends de nouvelles choses
+Ceci est une phrase exemple
