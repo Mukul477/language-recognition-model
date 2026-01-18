@@ -33,6 +33,35 @@ test_preds, _ = model.predict(X_test)
 print("Train accuracy:", np.mean(train_preds == y_train))
 print("Test accuracy:", np.mean(test_preds == y_test))
 
+from KNN import knn
+
+modelk = knn(k=3)
+modelk.fit(X_train, y_train)
+
+knn_train_preds = modelk.predict(X_train)
+knn_test_preds = modelk.predict(X_test)
+
+print("k-NN Train accuracy:", np.mean(knn_train_preds == y_train))
+print("k-NN Test accuracy:", np.mean(knn_test_preds == y_test))
+
+hard_test =['je vais a la biblioteque',
+'ich LIEBE schokolade!!!',
+'this is soooo good',
+'merci bcp pour ton aide',
+'DER zug KOMMT spaet']
+
+hard_labels = [1,2,0,1,2]
+
+X_hard = np.array([sentence_features(s) for s in hard_test])
+X_hard = (X_hard - mean) / std  
+
+preds, _ = model.predict(X_hard)
+print("Hard test accuracy:", np.mean(preds == hard_labels))
+
+
+
+
+
 
 
 
